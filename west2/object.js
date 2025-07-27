@@ -90,10 +90,25 @@ const users = [
 
 ]
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));//return data type as an arrays
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));//return data type as an arrays
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));//checks whether it is present or not
+// console.log(tinderUser.hasOwnProperty('isLogged'));//checks whether it is present or not
+
+
+// deconstruct of the code 
+
+
+const course = {
+    coursename=" js in hindi",
+    price: "999",
+    courseInstructor:"Anish"
+}
+
+const {courseInstructor: instructor} = course
+
+// conole.log(courseInstructor);
+console.log(instructor);
