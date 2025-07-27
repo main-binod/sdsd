@@ -30,12 +30,36 @@ const narr = arr.join()
 // console.log(typeof(narr))
 
 // slice,splice
-console.log("A ",arr);
+// console.log("A ",arr);
 
 const myn1=arr.slice(1,3)
-console.log(myn1);
-console.log("B ",arr);
+// console.log(myn1);
+// console.log("B ",arr);
 
 const myn2=arr.splice(1,3);
-console.log("C ",arr);
-console.log(myn2);
+// console.log("C ",arr);
+// console.log(myn2);
+
+const marvel_heros=["thor","Ironamn","Spiderman"]
+const dc_heroes=["Superman","Flash","Batman"]
+
+//marvel_heros.push(dc_heroes);
+//console.log(marvel_heros);
+
+const allHeros = marvel_heros.concat(dc_heroes)
+// console.log(allHeros)
+
+const all_new_heros = [...marvel_heros,...dc_heroes]//works same as concat known as "spread array"
+
+const another_array=[1,2,3,[4,5,6],7,[6,7,[4,5]]]
+const real_another_array = another_array.flat(Infinity)
+// console.log(real_another_array);
+
+console.log(Array.isArray("Hitesh"))
+console.log(Array.from("Hitesh"))
+console.log(Array.from({name:"hitesh"}))//interesting
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score1,score2,score3));
