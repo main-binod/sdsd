@@ -51,6 +51,6 @@ const chai = () => {
 ( ()=>{
     console.log
 (`DB BAKCHODI ${"name"}`);
-}
-('jdsfsnifnsf');
+})
+('jdsfsnifnsf')
 // this is name iffi
