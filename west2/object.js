@@ -102,13 +102,28 @@ users[1].email
 // deconstruct of the code 
 
 
-const course = {
-    coursename=" js in hindi",
-    price: "999",
-    courseInstructor:"Anish"
-}
+// const course = {
+//     coursename:" js in hindi",
+//     price: "999",
+//     courseInstructor:"Anish"
+// }
 
-const {courseInstructor: instructor} = course
+// const {courseInstructor: instructor} = course
 
 // conole.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
+
+/*const navbar = ({company}) =>{
+
+}
+
+navbar(company = "anish")*/
+// deconstruct of object
+
+// {
+//     "name": "anish",
+//     "coursename":"js in hindi",
+//     "price": "free"
+// }
+// jason code to used for an api
+
